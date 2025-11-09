@@ -1,37 +1,27 @@
-Traffic Congestion Analyzer
+# Traffic Congestion Analyzer
 
 A Python-based project that analyzes traffic volume trends using historical traffic and weather data. This project uses PySpark for data processing and generates visualizations to understand traffic patterns by hour, day, and month.
 
-Features
+#Features
 
 Reads traffic and weather data from CSV files.
-
 Handles large datasets efficiently with PySpark.
-
 Performs exploratory data analysis (EDA) on traffic volume.
 
-Generates trend visualizations:
-
+#Generates trend visualizations:
 Hourly traffic trends.
-
 Day-wise traffic trends.
-
 Monthly traffic trends.
-
 Saves charts in outputs/figures/.
 
 
-💻 Technologies Used
+#💻 Technologies Used
 
-Python 3.x
-
-PySpark for distributed data processing
-
-Matplotlib / Seaborn for visualizations
-
-Pandas for lightweight data handling
-
-Git for version control
+1)Python 3.x
+2)PySpark for distributed data processing
+3)Matplotlib / Seaborn for visualizations
+4)Pandas for lightweight data handling
+5)Git for version control
 
 📂 Project Structure
 TrafficAnalyzer/
