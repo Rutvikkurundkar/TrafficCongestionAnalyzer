@@ -24,7 +24,7 @@ df = df.withColumn("day", date_format("timestamp", "E"))
 df = df.withColumn("month", month("timestamp"))
 
 
-# HOURLY TRAFFIC ANALYSIS
+# Hourly Traffic Analysis
 
 hourly = df.groupBy("hour") \
            .agg(avg("traffic_volume").alias("avg_volume")) \
@@ -44,7 +44,7 @@ plt.savefig("outputs/figures/hourly_trend.png")
 plt.close()
 print(" Saved: outputs/figures/hourly_trend.png")
 
-# DAY OF WEEK ANALYSIS
+# Day of week analysis
 
 daily = df.groupBy("day") \
           .agg(avg("traffic_volume").alias("avg_volume"))
@@ -61,7 +61,7 @@ plt.close()
 print(" Saved: outputs/figures/daywise_trend.png")
 
 
-# MONTHLY TRAFFIC TREND
+# Monthly Traffic Trend
 
 monthly = df.groupBy("month") \
             .agg(avg("traffic_volume").alias("avg_volume")) \
