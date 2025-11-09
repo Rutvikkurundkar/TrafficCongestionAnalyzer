@@ -55,7 +55,8 @@ After running, charts will be saved in outputs/figures/.
 
 📊 Example Output
 
-Hourly traffic trend: outputs/figures/hourly_trend.png
+<img width="1756" height="866" alt="image" src="https://github.com/user-attachments/assets/d85dc10c-470c-4626-9613-cb020c5bbe77" />
+
 
 Day-wise traffic trend: outputs/figures/daywise_trend.png
 
